@@ -16,6 +16,7 @@
     <copyright>Stas'M</copyright>
     <licenseUrl>https://raw.githubusercontent.com/binarymaster/rdpwrap/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>admin rdp remote desktop</tags>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
