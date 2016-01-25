@@ -12,7 +12,7 @@
     RDP Wrapper works as a layer between Service Control Manager and Terminal Services, so the original termsrv.dll file remains untouched. Also this method is very strong against Windows Update.
     </description>
     <projectUrl>https://github.com/binarymaster/rdpwrap</projectUrl>
-    <packageSourceUrl>https://github.com/Leon99/ChocolateyPackages/rdpwrapper</packageSourceUrl>
+    <packageSourceUrl>https://github.com/Leon99/ChocolateyPackages/tree/master/rdpwrapper</packageSourceUrl>
     <copyright>Stas'M</copyright>
     <licenseUrl>https://raw.githubusercontent.com/binarymaster/rdpwrap/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
