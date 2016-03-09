@@ -4,7 +4,7 @@
   <metadata>
     <id>rdpwrapper</id>
     <title>RDP Wrapper</title>
-    <version>1.6</version>
+    <version>1.6.0.1</version>
     <authors>Stas'M</authors>
     <owners>Leon Volovyk</owners>
     <summary>RDP Wrapper Library</summary>
