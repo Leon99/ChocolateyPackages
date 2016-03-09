@@ -2,7 +2,7 @@
 
 $packageName= 'rdpwrapper'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/binarymaster/rdpwrap/releases/download/v1.6/RDPWrap-v1.6.zip' # download url
+$url        = 'https://github.com/stascorp/rdpwrap/releases/download/v1.6/RDPWrap-v1.6.zip' # download url
 
 Install-ChocolateyZipPackage $packageName $url $toolsDir
 
