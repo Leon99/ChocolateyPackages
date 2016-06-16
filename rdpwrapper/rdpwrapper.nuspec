@@ -11,10 +11,10 @@
     <description>The goal of this project is to enable Remote Desktop Host support and concurrent RDP sessions on reduced functionality systems for home usage.
     RDP Wrapper works as a layer between Service Control Manager and Terminal Services, so the original termsrv.dll file remains untouched. Also this method is very strong against Windows Update.
     </description>
-    <projectUrl>https://github.com/binarymaster/rdpwrap</projectUrl>
+    <projectUrl>https://github.com/stascorp/rdpwrap</projectUrl>
     <packageSourceUrl>https://github.com/Leon99/ChocolateyPackages/tree/master/rdpwrapper</packageSourceUrl>
     <copyright>Stas'M</copyright>
-    <licenseUrl>https://raw.githubusercontent.com/binarymaster/rdpwrap/master/LICENSE</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/stascorp/rdpwrap/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>admin rdp remote desktop</tags>
   </metadata>
