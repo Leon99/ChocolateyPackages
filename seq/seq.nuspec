@@ -4,12 +4,12 @@
   <metadata>
     <id>seq</id>
     <version>3.4.20</version>
-    <packageSourceUrl>https://github.com/Leon99/ChocolateyPackages/seq</packageSourceUrl>
+    <packageSourceUrl>https://github.com/Leon99/ChocolateyPackages/tree/master/seq</packageSourceUrl>
     <owners>Leon Volovyk</owners>
     <title>Seq (Install)</title>
     <authors>Datalust</authors>
     <projectUrl>https://getseq.net/</projectUrl>
-    <iconUrl>https://getseq.net/favicon.ico</iconUrl>
+    <iconUrl>https://files.readme.io/SpZC23mDQY60IqWitfZl_getseq_net_profile.png</iconUrl>
     <copyright>2013-2016</copyright>
     <licenseUrl>https://getseq.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -21,6 +21,7 @@
 
 Modern structured logging bridges the gap between human-friendly text logs, and machine-readable formats like JSON. Using event data from libraries such as Serilog, ASP.NET Core, and Node.js, Seq makes centralized logs easy to read, and easy to filter and correlate, without fragile log parsing.
 </description>
+<releaseNotes>https://github.com/datalust/seq-releases/milestones?state=closed</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
