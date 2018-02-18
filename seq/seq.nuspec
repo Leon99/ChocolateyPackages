@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>seq</id>
-    <version>3.4.20</version>
+    <version>4.2.605</version>
     <packageSourceUrl>https://github.com/Leon99/ChocolateyPackages/tree/master/seq</packageSourceUrl>
     <owners>Leon Volovyk</owners>
     <title>Seq (Install)</title>
     <authors>Datalust</authors>
     <projectUrl>https://getseq.net/</projectUrl>
     <iconUrl>https://files.readme.io/SpZC23mDQY60IqWitfZl_getseq_net_profile.png</iconUrl>
-    <copyright>2013-2016</copyright>
+    <copyright>2013-2018</copyright>
     <licenseUrl>https://getseq.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>http://docs.getseq.net/docs</docsUrl>
