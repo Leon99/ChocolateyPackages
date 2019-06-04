@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>seq</id>
-    <version>4.2.605</version>
+    <version>5.1.3093</version>
     <packageSourceUrl>https://github.com/Leon99/ChocolateyPackages/tree/master/seq</packageSourceUrl>
     <owners>Leon Volovyk</owners>
     <title>Seq (Install)</title>
     <authors>Datalust</authors>
     <projectUrl>https://getseq.net/</projectUrl>
-    <iconUrl>https://files.readme.io/SpZC23mDQY60IqWitfZl_getseq_net_profile.png</iconUrl>
-    <copyright>2013-2018</copyright>
+    <iconUrl>https://datalust.co/images/nuget/seq.png</iconUrl>
+    <copyright>2013-2019</copyright>
     <licenseUrl>https://getseq.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>http://docs.getseq.net/docs</docsUrl>
@@ -23,7 +23,7 @@ Modern structured logging bridges the gap between human-friendly text logs, and 
     </description>
     <releaseNotes>https://github.com/datalust/seq-releases/milestones?state=closed</releaseNotes>
     <dependencies>
-      <dependency id="DotNet4.6" />
+      <dependency id="dotnet4.7.2" />
     </dependencies>
   </metadata>
   <files>
