@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>seq</id>
-    <version>5.1.3200</version>
+    <version>5.1.3364</version>
     <packageSourceUrl>https://github.com/Leon99/ChocolateyPackages/tree/master/seq</packageSourceUrl>
     <owners>Leon Volovyk</owners>
     <title>Seq (Install)</title>
