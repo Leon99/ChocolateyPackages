@@ -2,7 +2,7 @@
 
 $packageName= 'seq'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://getseq.net/Download/Begin?version=5.1.3364'
+$url        = 'https://getseq.net/Download/Begin?version=2020.1.4292'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -13,7 +13,7 @@ $packageArgs = @{
 
   softwareName  = 'Seq'
 
-  checksum      = '48AF18456D0A727AC2C55F2C5A65869653299A24462F8F1EA7045E48937ED272'
+  checksum      = '0796D16B8A92662FCB358D95DF64717A39E35680731A9296A8BF2EA8D50AF40F'
   checksumType  = 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
