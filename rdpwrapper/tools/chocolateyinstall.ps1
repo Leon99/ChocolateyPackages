@@ -2,8 +2,8 @@
 
 $packageName= 'rdpwrapper'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/stascorp/rdpwrap/releases/download/v1.6.2/RDPWrap-v1.6.2.zip' # download url
-$checkSum   = '35A9481DDBED5177431A9EA4BD09468FE987797D7B1231D64942D17EB54EC269'
+$url        = 'https://github.com/tmaguire/rdpwrap/releases/download/v1.6.3/RDPWrapper-1.6.3.zip'
+$checkSum   = '8d3c945ee817f0c8d8d1ee4de92db6e12b75bf165ef01a847459b5b5f8d7b0d3'
 
 Install-ChocolateyZipPackage $packageName $url $toolsDir -ChecksumType "sha256" -Checksum $checkSum
 

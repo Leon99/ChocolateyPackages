@@ -4,17 +4,19 @@
   <metadata>
     <id>rdpwrapper</id>
     <title>RDP Wrapper</title>
-    <version>1.6.2</version>
-    <authors>Stas'M</authors>
+    <version>1.6.3</version>
+    <authors>Stas'M, Tom Maguire</authors>
     <owners>Leon Volovyk</owners>
     <summary>RDP Wrapper Library</summary>
     <description>The goal of this project is to enable Remote Desktop Host support and concurrent RDP sessions on reduced functionality systems for home usage.
     RDP Wrapper works as a layer between Service Control Manager and Terminal Services, so the original termsrv.dll file remains untouched. Also this method is very strong against Windows Update.
+
+    This package uses tmaguire's fork of RDP Wrapper, because the original author, Stas'M hasn't updated the software since 2018.
     </description>
-    <projectUrl>https://github.com/stascorp/rdpwrap</projectUrl>
+    <projectUrl>https://github.com/tmaguire/rdpwrap</projectUrl>
     <packageSourceUrl>https://github.com/Leon99/ChocolateyPackages/tree/master/rdpwrapper</packageSourceUrl>
     <copyright>Stas'M</copyright>
-    <licenseUrl>https://raw.githubusercontent.com/stascorp/rdpwrap/master/LICENSE</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/tmaguire/rdpwrap/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>admin rdp remote desktop</tags>
   </metadata>
