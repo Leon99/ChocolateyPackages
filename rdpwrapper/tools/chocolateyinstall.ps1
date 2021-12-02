@@ -7,5 +7,4 @@ $checkSum   = '8d3c945ee817f0c8d8d1ee4de92db6e12b75bf165ef01a847459b5b5f8d7b0d3'
 
 Install-ChocolateyZipPackage $packageName $url $toolsDir -ChecksumType "sha256" -Checksum $checkSum
 
-Start-ChocolateyProcessAsAdmin '-i' (Join-Path $toolsDir 'RDPWInst.exe') -validExitCodes @(0,1)
-Start-ChocolateyProcessAsAdmin '-w' (Join-Path $toolsDir 'RDPWInst.exe')
+Start-ChocolateyProcessAsAdmin '-i -o' (Join-Path $toolsDir 'RDPWInst.exe') -validExitCodes @(0,1)
