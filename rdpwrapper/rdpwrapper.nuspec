@@ -12,6 +12,10 @@
     RDP Wrapper works as a layer between Service Control Manager and Terminal Services, so the original termsrv.dll file remains untouched. Also this method is very strong against Windows Update.
 
     This package uses tmaguire's fork of RDP Wrapper, because the original author, Stas'M hasn't updated the software since 2018.
+
+    ## Package Parameters
+
+    - `/NoUpdateService` - Disables rdpwrap.ini updates on system startup
     </description>
     <projectUrl>https://github.com/tmaguire/rdpwrap</projectUrl>
     <packageSourceUrl>https://github.com/Leon99/ChocolateyPackages/tree/master/rdpwrapper</packageSourceUrl>
